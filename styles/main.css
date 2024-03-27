@@ -30,4 +30,15 @@
     text-decoration: none;
   }
 
+.box{
+  border: 5px dotted black;
+  padding: 1em;
+  margin-top:20px;
+  margin-right: 1em;
+  margin-bottom: 40px;
+  margin-left: 2em;
+  width: 300px;
+  height: 150px;
+
+}
   
