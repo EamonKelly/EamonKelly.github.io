@@ -1,6 +1,14 @@
 /* Task 1: Hover Highlight Card */
 .hover-highlight-card {
     padding: 20px;
+
+}
+.hover-highlight-card:hover
+{
+background-color:rgba(0, 26, 255, 0.555);
+
+box-shadow: 10px 5px 5px rgba(6, 135, 209, 0.623);
+transition: 0.5s;
 }
 
 /* Task 2: Animated Navigation Menu */
@@ -9,6 +17,7 @@
     padding: 0;
     display: flex;
     gap: 10px;
+    transition: 0.5s;
 }
 
 .animated-nav-menu a {
@@ -17,6 +26,12 @@
     padding: 4px;
     color: #00aaff;
     background-color: white;
+    transition: 0.8s;
+}
+
+.animated-nav-menu a:hover{
+    color: white;
+    background-color: #00aaff;
 }
 
 /* Task 3: Button Press Animation */
