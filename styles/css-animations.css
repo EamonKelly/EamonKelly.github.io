@@ -42,6 +42,10 @@ transition: 0.5s;
     color: white;
     cursor: pointer;
 }
+.button-press-animation button:active{
+    transform:scale(0.9)
+    
+}
 
 /* Task 4: Simple Loading Spinner */
 .simple-loading-spinner .spinner {
