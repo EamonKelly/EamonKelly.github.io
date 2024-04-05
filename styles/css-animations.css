@@ -43,8 +43,8 @@ transition: 0.5s;
     cursor: pointer;
 }
 .button-press-animation button:active{
-    transform:scale(0.9)
-    
+    transform:scale(0.9);
+    transition: 0.4s;
 }
 
 /* Task 4: Simple Loading Spinner */
