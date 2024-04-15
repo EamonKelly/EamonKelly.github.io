@@ -77,7 +77,15 @@ transition: 0.5s;
     flex-wrap: wrap;
 }
 .fading-gallery img {
+    opacity: 0.5;
     width: 100px;
     height: 100px;
     object-fit: cover;
+}
+
+.fading-gallery:hover 
+{
+    opacity: 1;
+    width: 150px;
+    height: 150px;
 }
