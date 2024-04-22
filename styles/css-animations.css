@@ -88,4 +88,6 @@ transition: 0.5s;
     opacity: 1;
     width: 150px;
     height: 150px;
+    transition: ease-in-out;
+
 }
