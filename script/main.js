@@ -28,3 +28,8 @@ for(let i=1; i<=10; i++){
     factorial*=i;
     console.log(factorial)
 }
+
+
+let arr = [3, 1, 4, 1, 5];
+arr[0];
+console.log(arr);
