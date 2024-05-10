@@ -37,7 +37,8 @@ for (let i = 0; i < arr.length; i++) {
 }
 
 console.log("task 7")
-arr = [3, 1, 4, 1, 5];
-for (let i = arr.length - 1; i >= 0; i--);{
-console.log(arr.at(i));
+let arr = [3, 1, 4, 1, 5];
+
+for (let i = arr.length - 1; i >= 0; i--) {
+  console.log(arr.at(i));
 }
