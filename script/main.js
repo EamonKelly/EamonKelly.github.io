@@ -37,8 +37,34 @@ for (let i = 0; i < arr.length; i++) {
 }
 
 console.log("task 7")
-let arr = [3, 1, 4, 1, 5];
 
-for (let i = arr.length - 1; i >= 0; i--) {
-  console.log(arr.at(i));
+for (let i = 0; i < arr.length; i++)
+console.log(arr.at(-1))
+console.log(arr.at(-2))
+console.log(arr.at(-3))
+console.log(arr.at(-4))
+console.log(arr.at(-5))
+
+console.log("Task 8")
+
+let cubes = [];
+
+for (let i = 1; i <= 10; i++) {
+  cubes.push(i**3);
+}
+console.log(cubes);
+
+console.log("Task 9")
+let fib = [0, 1]
+
+for (let i = 1; i <= 10; i++) {
+  fib.push(fib.at(-1) + (fib.at(-2)));
+}
+console.log(fib);
+
+console.log("Task 10");
+let empty = []
+
+while (arr.length > 0) {
+  empty.push(arr.pop());
 }
