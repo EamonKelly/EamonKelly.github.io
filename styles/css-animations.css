@@ -1,15 +1,3 @@
-/* Task 1: Hover Highlight Card */
-.hover-highlight-card {
-    padding: 20px;
-
-}
-.hover-highlight-card:hover
-{
-background-color:rgba(0, 26, 255, 0.555);
-
-box-shadow: 10px 5px 5px rgba(6, 135, 209, 0.623);
-transition: 0.5s;
-}
 
 /* Task 2: Animated Navigation Menu */
 .animated-nav-menu ul {
