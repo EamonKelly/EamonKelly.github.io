@@ -1,70 +1,9 @@
-
-/* Task 2: Animated Navigation Menu */
-.animated-nav-menu ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    gap: 10px;
-    transition: 0.5s;
-}
-
-.animated-nav-menu a {
-    text-decoration: none;
-    border-radius: 10%;
-    padding: 4px;
-    color: #00aaff;
-    background-color: white;
-    transition: 0.8s;
-}
-
-.animated-nav-menu a:hover{
-    color: white;
-    background-color: #00aaff;
-}
-
-/* Task 3: Button Press Animation */
-.button-press-animation button {
-    padding: 10px 20px;
-    border: none;
-    background-color: #00aaff;
-    color: white;
-    cursor: pointer;
-}
-.button-press-animation button:active{
-    transform:scale(0.9);
-    transition: 0.4s;
-}
-
-/* Task 4: Simple Loading Spinner */
-.simple-loading-spinner .spinner {
-    border: 4px solid #f3f3f3;
-    border-top: 4px solid #3498db;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    animation-name:spinner;
-    animation-duration:1s;
-    animation-iteration-count:infinite;
-    animation-timing-function: linear;
-}
-@keyframes spinner{
-    From{
-        transform: rotate(0deg)
-    }
-    to{
-        transform: rotate(360deg)
-    }
-
-
-}
-
-/* Task 5: Fading Gallery */
-.fading-gallery {
+.image-gallery {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.fading-gallery img {
+.image-gallery img {
     opacity: 0.5;
     width: 100px;
     height: 100px;
@@ -72,7 +11,7 @@
     transition: ease-in 0.5s;
 }
 
-.fading-gallery img:hover
+.image-gallery img:hover
 {
     opacity: 1;
     width: 150px;

@@ -1,0 +1,8 @@
+.correct-answer:hover {
+    color: rgb(30, 236, 11);
+    transition: 0.5s;
+}
+.wrong-answer:hover {
+    color: rgb(231, 18, 18);
+    transition: 0.5s;
+}
