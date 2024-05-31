@@ -1,11 +1,11 @@
-.yes{color:crimson}
-.yes:hover{background-color:rgba(170, 6, 6, 0.555);
+.red-text{color:crimson}
+.red-text:hover{background-color:rgba(170, 6, 6, 0.555);
   
   box-shadow: 10px 5px 5px rgba(170, 6, 6, 0.555);
   transition: 0.5s;
   }
   
-.no{font-size: small; }
+.font-size{font-size: small; }
 
 
  body {font-family: Arial, Helvetica, sans-serif;
