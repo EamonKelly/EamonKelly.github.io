@@ -1,5 +1,5 @@
 function onButtonClick() {
-    alert('Button clicked!');
+    alert('You Clicked me, Yaaaay');
   }
   
   const button = document.querySelector('button');
@@ -10,5 +10,5 @@ function onButtonClick() {
   document.body.appendChild(newButton);
   
   newButton.addEventListener('click', () => {
-    alert('New button clicked!');
+    alert('Im the New Button!!');
   });
