@@ -5,8 +5,8 @@
 }
 .image-gallery img {
     opacity: 0.5;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     transition: ease-in 0.5s;
 }
@@ -14,7 +14,7 @@
 .image-gallery img:hover
 {
     opacity: 1;
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     
 }
